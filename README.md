@@ -46,7 +46,7 @@ Another difficulty I faced during this excercise was that I was unaware of how t
 >1. The most successful Kickstarter campaigns were started in April, and peaked in May. On the other hand, December doesn't seem like a great time to launch a campaign.
 
 ### What can you conclude about the Outcomes based on Goals?
->1. I have found that while there is only a total of 1, 047 Kickstarter campaigns in the sub category "plays", the most successul goal-amount is within the range of Less than 1000 which yields a 76% success rate and range "1,000 to 4,999" which yields a rate of 73%. Anything above this is proven to be risky and has a high failer rate. However we do have two (2) high ticket items (ranges 35,000 to 39999 and 40,000 to 44,999) with above averages for success (67%) but the number of successful plays in this range are very minuscule and therefore negligible. 
+>1. I have found that while there is only a total of 1, 047 Kickstarter campaigns in the sub category "plays", the most successul goal-amount is within the range of Less than 1000 which yields a 76% success rate and range "1,000 to 4,999" which yields a rate of 73%. Anything above this is proven to be risky and has a high failer rate. However, we do have two (2) high ticket items (ranges 35,000 to 39999 and 40,000 to 44,999) with above averages for success (67%) but the number of successful plays in this range are very minuscule and therefore negligible. 
 >2. No plays were cancelled across all range.
 
 ### What are some limitations of this dataset?
