@@ -16,7 +16,7 @@ Analysis of this project was performed using the Excel tool to mine, analyze and
 2. Outcomes Based on Goals
 
 ### Analysis of Outcomes Based on Launch Date
-In order to analyze this segement, the relevant data field were identified from the dataset, i.e outcome (successful, failed and canceled) and time (years and months). I started first by isolating the year `[=YEAR(S2)]` from the "date of creation", once that was done I was able to create a pivot table to show the outcomes over time, as it relates to the parent category "theater".The pivot table was further used to create a pivot chart to visualize the relationship between the outcomes and launch month. Fields used to create the pivot chart are as follow:
+In order to analyze this segement, the relevant data field were identified from the dataset, i.e outcome (successful, failed and canceled) and time (years and months). I started first by isolating the year i.e `[=YEAR(S2)]` from the "date of creation", once that was done I was able to create a pivot table to show the outcomes over time, as it relates to the parent category "theater".The pivot table was further used to create a pivot chart to visualize the relationship between the outcomes and launch month. Fields used to create the pivot chart are as follow:
 1. **Filter:** Parent Category, Years
 2. **Rows:** Date, Created Conversion
 3. **Columns:** Outcomes
@@ -26,7 +26,7 @@ In order to analyze this segement, the relevant data field were identified from 
 ![Outcomes_vs_Launch](./Resources/Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-To analyze the outcomes based on goals, target ranges were identified (for example: 0 to 4999). Ten (10) ranges were created of 4,999 intervals, additional goals of less than 1000 and greater than 5000 were also considered. The outcomes (successful, failed and canceled) where then mapped against their goals as well as the subcatergory plays. This was done using the countifs formula; for example: `(=COUNTIFS(Kickstarter!$F:F,"successful",Kickstarter!$D:D,">=35000",Kickstarter!$D:D,"<=39999",Kickstarter!$R:R,"plays")`. 
+To analyze the outcomes based on goals, target ranges were identified (for example: "0 to 4999"). Ten (10) ranges were created of 4,999 intervals, additional goals of "less than 1000" and "greater than 50,000" were also considered. The outcomes (successful, failed and canceled) where then mapped against their goals as well as the subcatergory plays. This was done using the countifs formula; for example: `(=COUNTIFS(Kickstarter!$F:F,"successful",Kickstarter!$D:D,">=35000",Kickstarter!$D:D,"<=39999",Kickstarter!$R:R,"plays")`. 
 
 This formula counts the outcome subcategory within each goal range. Next, would be to calcaulate total of all the projects across each subcategorgy `(=SUM(B2:D2)`. Similarly the percentage of each subcategory was calculated `(=B2/$B$14)`. For visulization, a line chart was used. 
 
@@ -46,7 +46,7 @@ Another difficulty I faced during this excercise was that I was unaware of how t
 >1. The most successful Kickstarter campaigns were started in April, and peaked in May. On the other hand, December doesn't seem like a great time to launch a campaign.
 
 ### What can you conclude about the Outcomes based on Goals?
->1. I have found that while there is only a total of 1, 047 Kickstarter campaigns in the sub category "plays", the most successul goal-amount is within the range of Less than 1000 which yields a 76% success rate and range "1,000 to 4,999" which yields a rate of 73%. Anything above this is proven to be risky and has a high failer rate. However, we do have two (2) high ticket items (ranges 35,000 to 39999 and 40,000 to 44,999) with above averages for success (67%) but the number of successful plays in this range are very minuscule and therefore negligible. 
+>1. I have found that while there is only a total of 1,047 Kickstarter campaigns in the sub category "plays", the most successul goal-amount is within the range of Less than 1000 which yields a 76% success rate and range "1,000 to 4,999" which yields a rate of 73%. Anything above this is proven to be risky and has a high failer rate. However, we do have two (2) high ticket items (ranges 35,000 to 39,999 and 40,000 to 44,999) with above averages for success (67%) but the number of successful plays in this range are very minuscule and therefore negligible. 
 >2. No plays were cancelled across all range.
 
 ### What are some limitations of this dataset?
