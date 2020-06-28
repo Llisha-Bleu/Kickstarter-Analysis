@@ -55,6 +55,6 @@ Another difficulty I faced during this excercise was that I was unaware of how t
 
 ### What are some other possible tables and/or graphs that we could create?
 >Some possible graphs that could be created are:
->1. Box Plots 
->2. Descriptive Statistics
->3. Stacked Columns
+>1. **Box Plots:** To compare the distribution of campaign goals and the distribution of total amounts pledged for plays 
+>2. **Descriptive Statistics:** To measure the spread of the datasetsuch as looking at the range, standard deviation and variance
+>3. **Stacked Columns:**  
