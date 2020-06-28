@@ -23,7 +23,7 @@ In order to analyze this segement, the relevant data field were identified from 
 4. **Values:** Count of Outcomes
 
  **Chart 1 showing outcomes based on launch dates:**
-![Outcomes_vs_Launch](./resources/Outcomes_vs_Launch.png)
+![Outcomes_vs_Launch](resources/Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To analyze the outcomes based on goals, target ranges were identified (for example: 0 to 4999). Ten (10) ranges were created of 4,999 intervals, additional goals of less than 1000 and greater than 5000 were also considered. The outcomes (successful, failed and canceled) where then mapped against their goals as well as the subcatergory plays. This was done using the countifs formula; for example: `(=COUNTIFS(Kickstarter!$F:F,"successful",Kickstarter!$D:D,">=35000",Kickstarter!$D:D,"<=39999",Kickstarter!$R:R,"plays")`. 
@@ -31,7 +31,7 @@ To analyze the outcomes based on goals, target ranges were identified (for examp
 This formula counts the outcome subcategory within each goal range. Next, would be to calcaulate total of all the projects across each subcategorgy `(=SUM(B2:D2)`. Similarly the percentage of each subcategory was calculated `(=B2/$B$14)`. For visulization, a line chart was used. 
 
 **Chart 2 showing outcomes based on goal:**
-![Outcomes_vs_Goals](./resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 
 
