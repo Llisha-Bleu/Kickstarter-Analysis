@@ -52,7 +52,7 @@ Another difficulty I faced during this excercise was that I was unaware of how t
 ### What are some limitations of this dataset?
 >Some limitations of this dataset are:
 >1. Dataset includes some data points that are not representative of the data we want, For example information regarding funding goals for theather building proposals
->2. We are not working with the complete dataset as it relates to to the category "play". When reviewing outcomes vs goals, we exculded "live" outcomes from the dataset and included "cancelled" outcomes for which there are no data across all ranges within the category "plays". By doing this we reduced the sample size by n19.
+>2. We are not working with the complete dataset as it relates to the category "play". When reviewing outcomes vs goals, we exculded "live" outcomes from the dataset and included "cancelled" outcomes for which there are no data across all ranges within the category "plays". By doing this we reduced the sample size by n19.
 
 ### What are some other possible tables and/or graphs that we could create?
 >Some possible graphs that could be created are:
